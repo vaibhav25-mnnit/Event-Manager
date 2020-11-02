@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event info</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('/images/logo.jpg');
+            background-position: center 0px;
+            background-size: 100% 100vh;
+            background-repeat: repeat;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+
+        }
+
+        .form {
+            width: 50%;
+            text-align: center;
+            /* border: 2px solid; */
+            margin: auto
+        }
+
+        .conta {
+            width: 33%;
+            margin: 235px auto;
+            color: #ff4735;
+
+        }
+
+        .conta h3 {
+            font-family: 'Itim', cursive;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .form-group label {
+            font-size: 25px;
+        }
+
+        .form-group small {
+            font-size: 16px
+        }
+
+        .sub {
+            text-align: center;
+            margin: 15px 43px;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="main_box">
+
+            <%- include('navbar.ejs'); %>
+
+            <div class="conta">
+                <h3>Please enter event id to view it's info</h3>
+                <form action="/event/about" method="POST" class="form">
+                    <%- include('errors.ejs') %>
+                    <div class="form-group">
+                        <label for="event_id">Event id:</label>
+                        <input type='number' class="form-control" id='event_id' name="event_id" placeholder="1234">
+                        <small id="event_idHelp" class="form-text   ">*Event id is mentioned below the name
+                            of
+                            event
+                            on home page.</small>
+                    </div>
+                    <div class="button sub">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <%- include('footer.ejs') %>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
