@@ -50,11 +50,12 @@ Event.find({})
 
                             User.find({ $and: [{ id: event.event_id }, { isVerified: true }] })
                                 .then(user => {
+                                    if (!user) {
+                                        event.deleteOne();
+                                    }
                                     user.forEach(user => {
                                         store_user_emails(user.email)
                                     });
-
-
 
                                     //----------------------- Creating and Sending mails to users---------------------------------------
 
