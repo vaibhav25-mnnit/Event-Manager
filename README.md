@@ -1,5 +1,6 @@
-,This is a event management app.Follow the following steps to run it in on your system
+This is a event management app. 
 
+Follow the following steps to run it in on your system
 Step 1: Clone this repo or download it's zip file into your local machine.
 
 Step2: Open the folder in your desired code editor and open terminal and navigate into this folder/
@@ -16,4 +17,4 @@ Step6: Now,type command -->node app.js<-- and it will show
                     
 Step7:Open your browser and search "localhost"
 
-Step8:Application will have started on local-host
+Step8:Application will have been started on local-host
