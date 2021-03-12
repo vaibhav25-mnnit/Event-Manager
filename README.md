@@ -65,4 +65,12 @@ node app.js
 
 > ## Screen Shots
 
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162400-min.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162236-min.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162522.png)
+ ---
  ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162143.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162602.png)
