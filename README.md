@@ -6,10 +6,10 @@
 
 > ## Table of content:
 
-- Features
-- Technology Stack
-- Installation
-- Screen Shots
+- [Features](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#features)
+- [Technology Stack](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#techstack-used)
+- [Installation](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#installation)
+- [Screen Shots](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#screen-shots)
 
 ---
 
@@ -58,11 +58,11 @@ node app.js
  App started on localhost...
  Connected to database...
 ```
+
 - app is started on localhost
 
 ---
 
->## Screen Shots
+> ## Screen Shots
 
- 
- 
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162143.png)
