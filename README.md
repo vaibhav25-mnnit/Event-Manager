@@ -1,4 +1,4 @@
-# **Event Manager ✔**
+# **Event Manager **
 
 ## One step destination to host all your events.
 
@@ -8,8 +8,9 @@
 
 - [Features](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#features)
 - [Technology Stack](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#techstack-used)
-- [Installation](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#installation)
 - [Screen Shots](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#screen-shots)
+- [Installation](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#installation)
+
 
 ---
 
@@ -33,6 +34,19 @@
 - bootstrap
 
 ---
+
+
+> ## Screen Shots
+
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162400-min.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162236-min.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162522.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162143.png)
+ ---
+ ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162602.png)
 
 > ## Installation
 
@@ -63,14 +77,3 @@ node app.js
 
 ---
 
-> ## Screen Shots
-
- ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162400-min.png)
- ---
- ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162236-min.png)
- ---
- ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162522.png)
- ---
- ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162143.png)
- ---
- ![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162602.png)
