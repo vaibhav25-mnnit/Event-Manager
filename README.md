@@ -1,4 +1,4 @@
-# **Event Manager **
+# Event Manager 
 
 ## One step destination to host all your events.
 
