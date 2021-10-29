@@ -112,7 +112,7 @@ app.use('/user', registerRoutes)
 
 
 //Listening app
-app.listen('80', () => {
+app.listen('3000', () => {
     console.log('App started on localhost...')
 })
 
